@@ -200,6 +200,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
     android.hardware.health@2.0-service
 
+# libhidltransport
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhidltransport.vendor
+
 # HW crypto
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
