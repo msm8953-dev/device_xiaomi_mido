@@ -142,6 +142,9 @@ DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_mido
 TARGET_RECOVERY_DEVICE_MODULES := libinit_mido
 
+# Keylayouts
+TARGET_USES_HARDWARE_KEYS := true
+
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
