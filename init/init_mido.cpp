@@ -32,7 +32,6 @@
 #include <stdlib.h>
 #include <sys/sysinfo.h>
 
-#include "vendor_init.h"
 #include "property_service.h"
 #include "log/log.h"
 
@@ -42,8 +41,6 @@
 char const *heaptargetutilization;
 char const *heapminfree;
 char const *heapmaxfree;
-
-using android::init::property_set;
 
 void check_device()
 {
