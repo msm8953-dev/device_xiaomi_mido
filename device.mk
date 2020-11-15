@@ -145,10 +145,6 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -379,3 +375,7 @@ PRODUCT_BOOT_JARS += \
 # common QTI components
 TARGET_COMMON_QTI_COMPONENTS := \
     perf
+
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
