@@ -17,6 +17,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.qcom.bluetooth.soc=smd \
 	ro.bluetooth.hfp.ver=1.7
 
+# Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+	sys.vendor.shutdown.waittime=500
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 	camera.display.lmax=1280x720 \
@@ -173,3 +177,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi-Display
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.wfd.virtual=0
+
