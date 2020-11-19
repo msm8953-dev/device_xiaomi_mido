@@ -381,7 +381,8 @@ PRODUCT_BOOT_JARS += \
 
 # common QTI components
 TARGET_COMMON_QTI_COMPONENTS := \
-    perf
+    perf \
+    bt
 
 # ParanoidDoze
 PRODUCT_PACKAGES += \
