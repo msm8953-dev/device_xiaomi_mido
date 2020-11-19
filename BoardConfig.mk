@@ -36,7 +36,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno506
 
 TARGET_BOARD_SUFFIX := _64
 
-TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/configs/props/system.prop
 
 # Kernel
 TARGET_KERNEL_CONFIG := mido_defconfig
