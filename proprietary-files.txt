@@ -1184,6 +1184,19 @@ vendor/lib64/libsensor_reg.so|77023e0e2f5e16a21224caebecae8dab84a9b10e
 vendor/lib64/libsensor_user_cal.so|619ffc8e2fb28f359876cdd642d57d561d98c0f2
 vendor/lib64/sensors.ssc.so|3780d51a1c58845510d41c8266a3793cc62b50d9
 
+# Servicetracker - from LA.UM.9.6.2.r1-02500-89xx.0
+vendor/lib/vendor.qti.hardware.servicetracker@1.0.so|9311068c2dd2a883f49aabc68e5584e2f2e0962f
+vendor/lib/vendor.qti.hardware.servicetracker@1.1.so|d21a21f102d46881661a27a5b1a55c76f2ed9d4b
+vendor/lib/vendor.qti.hardware.servicetracker@1.2.so|6f7b065a6eb697358dc7cb41a2225f867c3b2ade
+vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|f916f5da97778eb6fb0690d3165cbf2b91ab02bc
+vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so|259e79456ec9bc31f477a3340fe7f6b2d90a7db5
+vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so|7c111beec87d751111c51659a0fc0ead5a9dc7e1
+vendor/lib64/vendor.qti.hardware.servicetracker@1.2.so|08917e0d946d43a7f5df8a5b48d83937043599a8
+vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|e9c628464a9979c52b473db0f747244255d338be
+vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da895586c20aab7e6bd01b806d8128b6
+-vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml|40b6abd9b4be99dc5722eb60d71ee36764bf4ef3
+vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|7984bc774f16c830f4f0539942f5bd9637e9c6dd
+
 # Thermal - from Olive PKQ1.190319.001 V10.3.5.0.PCNCNXM
 vendor/bin/thermal-engine|7b59145e9e75cdc8b491f2ed7a04c0880899fc74
 -vendor/lib/libthermalclient.so|2c91276835c185e47a66916d24b3adc98b17e6eb
