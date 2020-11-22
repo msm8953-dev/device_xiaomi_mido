@@ -165,10 +165,10 @@ PRODUCT_PACKAGES += \
     libunwind
 
 # FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
+#PRODUCT_PACKAGES += \
+#    FM2 \
+#    libqcomfm_jni \
+#    qcom.fmradio
 
 # Fwk-detect
 PRODUCT_PACKAGES += \
