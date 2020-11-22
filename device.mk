@@ -82,6 +82,10 @@ PRODUCT_PACKAGES += \
     antradio_app \
     libantradio
 
+# atrace HAL
+PRODUCT_PACKAGES += \
+    android.hardware.atrace@1.0-service
+
 # Audio
 AUDIO_SDK_FLUENCETYPE := fluence
 $(call inherit-product, vendor/qcom/opensource/audio-hal/primary-hal/configs/msm8953/msm8953.mk)
