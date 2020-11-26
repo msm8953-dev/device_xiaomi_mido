@@ -346,11 +346,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl \
-    android.hardware.vibrator@1.0-service
-
 # VNDK
 PRODUCT_PACKAGES += \
     vndk_package \
@@ -388,7 +383,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     perf \
     bt \
     audio \
-    usb
+    usb \
+    vibrator
 
 # ParanoidDoze
 PRODUCT_PACKAGES += \
