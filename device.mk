@@ -410,3 +410,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
 # ParanoidDoze
 PRODUCT_PACKAGES += \
     ParanoidDoze
+
+# ParanoidCamera
+TARGET_USES_AOSP_CAMERA := true
