@@ -686,9 +686,9 @@ vendor/firmware/cpp_firmware_v1_5_0.fw|ac19cd179b7b118bb3ea01a35fdfc78dc58164a1
 vendor/bin/hvdcp_opti|a9ee4c16f5f4d49396dabb34026ba6fc2d1ed58a
 
 # CNE - from LA.UM.8.6.2.r1-08100-89xx.0
-etc/cne/Nexus/ATT/ATT_profiles.xml|a0039cb3a4c5a4ca1adf897904b61c91e32d06f7
-etc/cne/Nexus/ROW/ROW_profiles.xml|e3907ff71cbbe0f1073ec1bf0223d26c8282aa35
-etc/cne/Nexus/VZW/VZW_profiles.xml|0d35b3266ea656d8868ae8f5d7e938f4859e9b0a
+etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
+etc/cne/Nexus/ROW/ROW_profiles.xml|238e785e9674b27c4b2365958d127533d7293132
+etc/cne/Nexus/VZW/VZW_profiles.xml|0f63b632e3a3f114def7aeadaabd13851c8ceec5
 product/lib64/com.quicinc.cne.api@1.0.so|06764410022518f75a8e7fa1de35b7577cdbe8f9
 product/lib64/com.quicinc.cne.api@1.1.so|8940ad6defe4ffba387a259a698c2def51f1d5fa
 product/lib64/com.quicinc.cne.constants@1.0.so|e2f9123a013c2c116b02a1e057870f885808f654
@@ -1013,6 +1013,20 @@ vendor/lib/vendor.qti.hardware.perf@2.0.so|280749be351cb0c26c0c6ee324615b77ea1b1
 vendor/lib/vendor.qti.hardware.perf@2.1.so|e7719a0ba123103f06c51cd985f10f3f8c3aa4c3
 vendor/lib/vendor.qti.hardware.perf@2.2.so|4f4f2fd8784bc9e07b432978e0397c02868ac8f6
 
+# Perf - IOP stack from LA.UM.9.6.2.r1-02500-89xx.0
+vendor/lib/libqti-iopd-client.so 
+vendor/lib/vendor.qti.hardware.iop@1.0.so 
+vendor/lib/vendor.qti.hardware.iop@2.0.so 
+vendor/lib64/libqti-iopd-client.so 
+vendor/lib64/vendor.qti.hardware.iop@1.0.so 
+vendor/lib64/vendor.qti.hardware.iop@2.0.so 
+system/system/system_ext/lib/libqti-iopd-client_system.so 
+system/system/system_ext/lib/libqti_performance.so 
+system/system/system_ext/lib/vendor.qti.hardware.iop@2.0.so 
+system/system/system_ext/lib64/libqti-iopd-client_system.so 
+system/system/system_ext/lib64/libqti_performance.so 
+system/system/system_ext/lib64/vendor.qti.hardware.iop@2.0.so 
+
 # Perf (configs) - from LA.UM.9.6.2.r1-02500-89xx.0
 vendor/etc/perf/commonresourceconfigs.xml|827c63cb52552af0c19a4735430f98334e1760bf
 vendor/etc/perf/perfboostsconfig.xml|1c120821b2fe9b3ebf9d00b7bc8c0a374c2918d2
@@ -1142,7 +1156,7 @@ lib64/com.qualcomm.qti.imscmservice@1.0.so:product/lib64/com.qualcomm.qti.imscms
 lib64/com.qualcomm.qti.imscmservice@2.0.so:product/lib64/com.qualcomm.qti.imscmservice@2.0.so|47732fea882f132beb4f3f515e4fed5ce7162120
 lib64/com.qualcomm.qti.imscmservice@2.1.so:product/lib64/com.qualcomm.qti.imscmservice@2.1.so|5808cb432903b7b45e0c2563286851ef89e06a98
 lib64/lib-imscamera.so:product/lib64/lib-imscamera.so|3a9c5c3cb03d4fb2351f8bb7a7807868c1dedf88
-lib64/lib-imsvideocodec.so:product/lib64/lib-imsvideocodec.so|3f9796853789c2685a9ced5562dd22c1307e270c
+lib64/lib-imsvideocodec.so:product/lib64/lib-imsvideocodec.so|79ad3994d1d8742ced91e093e0a19345a1b46832
 lib64/lib-imsvt.so:product/lib64/lib-imsvt.so|7dfc533fc3c439a608b219838281d6c5f605ee22
 lib64/lib-imsvtextutils.so:product/lib64/lib-imsvtextutils.so|dc3340321ee2543bb35248d0f9dac4718116a073
 lib64/lib-imsvtutils.so:product/lib64/lib-imsvtutils.so|13480b644ed5290f7ddc2f7c304c0e912f416098
@@ -1197,19 +1211,6 @@ vendor/lib64/libsensor1.so|834f01bffa724f8ddbb63da04b71a2e660a727ff
 vendor/lib64/libsensor_reg.so|77023e0e2f5e16a21224caebecae8dab84a9b10e
 vendor/lib64/libsensor_user_cal.so|619ffc8e2fb28f359876cdd642d57d561d98c0f2
 vendor/lib64/sensors.ssc.so|3780d51a1c58845510d41c8266a3793cc62b50d9
-
-# Servicetracker - from LA.UM.9.6.2.r1-02500-89xx.0
-vendor/lib/vendor.qti.hardware.servicetracker@1.0.so|9311068c2dd2a883f49aabc68e5584e2f2e0962f
-vendor/lib/vendor.qti.hardware.servicetracker@1.1.so|d21a21f102d46881661a27a5b1a55c76f2ed9d4b
-vendor/lib/vendor.qti.hardware.servicetracker@1.2.so|6f7b065a6eb697358dc7cb41a2225f867c3b2ade
-vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|f916f5da97778eb6fb0690d3165cbf2b91ab02bc
-vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so|259e79456ec9bc31f477a3340fe7f6b2d90a7db5
-vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so|7c111beec87d751111c51659a0fc0ead5a9dc7e1
-vendor/lib64/vendor.qti.hardware.servicetracker@1.2.so|08917e0d946d43a7f5df8a5b48d83937043599a8
-vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|e9c628464a9979c52b473db0f747244255d338be
-vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da895586c20aab7e6bd01b806d8128b6
--vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml|40b6abd9b4be99dc5722eb60d71ee36764bf4ef3
-vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|7984bc774f16c830f4f0539942f5bd9637e9c6dd
 
 # Thermal - from Olive PKQ1.190319.001 V10.3.5.0.PCNCNXM
 vendor/bin/thermal-engine|7b59145e9e75cdc8b491f2ed7a04c0880899fc74
