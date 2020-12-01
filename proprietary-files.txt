@@ -1083,11 +1083,11 @@ vendor/lib64/libqmi_csi.so|5e3d7a6c18f10c30d152bd87cd24b0c787f6ded3
 vendor/lib64/libqmi_encdec.so|68fb631317150d66fd1a39c48f8ef9e0405bbdf2
 vendor/lib64/libqmiservices.so|842a1b61fad7dd34753e945ee2ada0fdc9589c09
 
-# QMI (shared depenedencies) - from LA.UM.8.6.2.r1-08100-89xx.0
-vendor/lib/libpdmapper.so|d6c99389242c81d3ba385cf8deda3d8f4260b71e
-vendor/lib/libqmi_cci.so|1c8ea224e329a03f475cb33a4d1a0bb186e1aa9b
-vendor/lib64/libpdmapper.so|d1519e487495ff12dbeb3c25c04f54196fdd2dfd
-vendor/lib64/libqmi_cci.so|7d5b9384c2ff94a760e501e93044c436035fd2cf
+# QMI (shared dependencies) - from LA.UM.9.6.2.r1-02500-89xx.0
+vendor/lib/libpdmapper.so|1cf97abdad3aec2d862286c76c2ced97e9eaee16
+vendor/lib/libqmi_cci.so|9c26c6054a6d700dd3fd944dadb7009000c26008
+vendor/lib64/libpdmapper.so|b872bdda452fe3f7e2394a14ad1da8c3343fef3b
+vendor/lib64/libqmi_cci.so|d35ef8e2412cb7f88887035a02ac83a10ebeaf1f
 
 # Radio - from Tissot PKQ1.180917.001.V10.0.24.0.PDHMIXM
 -app/QtiTelephonyService/QtiTelephonyService.apk:product/app/QtiTelephonyService/QtiTelephonyService.apk|420b39e20a5166940c1e2e55e8d9c92ec910cebb
@@ -1157,7 +1157,7 @@ lib64/com.qualcomm.qti.imscmservice@1.0.so:product/lib64/com.qualcomm.qti.imscms
 lib64/com.qualcomm.qti.imscmservice@2.0.so:product/lib64/com.qualcomm.qti.imscmservice@2.0.so|47732fea882f132beb4f3f515e4fed5ce7162120
 lib64/com.qualcomm.qti.imscmservice@2.1.so:product/lib64/com.qualcomm.qti.imscmservice@2.1.so|5808cb432903b7b45e0c2563286851ef89e06a98
 lib64/lib-imscamera.so:product/lib64/lib-imscamera.so|3a9c5c3cb03d4fb2351f8bb7a7807868c1dedf88
-lib64/lib-imsvideocodec.so:product/lib64/lib-imsvideocodec.so|37706bb1770e2d21450ca2cdbb3e193a0aafee83
+lib64/lib-imsvideocodec.so:product/lib64/lib-imsvideocodec.so|1b789b1011ab3491e97e2a603361768a9aa0c24f
 lib64/lib-imsvt.so:product/lib64/lib-imsvt.so|7dfc533fc3c439a608b219838281d6c5f605ee22
 lib64/lib-imsvtextutils.so:product/lib64/lib-imsvtextutils.so|dc3340321ee2543bb35248d0f9dac4718116a073
 lib64/lib-imsvtutils.so:product/lib64/lib-imsvtutils.so|13480b644ed5290f7ddc2f7c304c0e912f416098
