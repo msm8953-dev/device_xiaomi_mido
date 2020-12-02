@@ -412,7 +412,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     perf \
     bt \
     usb \
-    vibrator
+    vibrator \
+    telephony
 
 # ParanoidDoze
 PRODUCT_PACKAGES += \
