@@ -168,10 +168,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libvulkan
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -415,3 +411,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
