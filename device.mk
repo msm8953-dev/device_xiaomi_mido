@@ -22,6 +22,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/configs/overlays/overlay \
     $(LOCAL_PATH)/configs/overlays/overlay-pa
 
+# Board Platform
+TARGET_BOARD_PLATFORM := msm8953
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
