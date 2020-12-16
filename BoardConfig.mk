@@ -212,5 +212,8 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Build hacks
+BUILD_BROKEN_DUP_RULES := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/mido/BoardConfigVendor.mk
