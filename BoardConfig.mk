@@ -179,6 +179,14 @@ DISABLE_RILD_OEM_HOOK := true
 VENDOR_SECURITY_PATCH := 2020-09-05
 
 # SELinux
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/legacy-um/common
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/legacy-um/msm8953
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/legacy-um/ssg
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/legacy-um/generic/public
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/legacy-um/qva/public
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/legacy-um/generic/private
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/legacy-um/qva/private
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
