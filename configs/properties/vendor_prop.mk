@@ -52,6 +52,8 @@ vendor.audio.feature.incall_music.enable=true
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 vendor.qcom.bluetooth.soc=smd \
+ro.bluetooth.library_name=libbluetooth_qti.so \
+persist.vendor.btstack.enable.splita2dp=false \
 ro.bluetooth.hfp.ver=1.7
 
 # Camera
