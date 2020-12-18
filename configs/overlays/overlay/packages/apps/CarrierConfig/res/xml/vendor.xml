@@ -93,7 +93,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
 
         <!-- HD/VOLTE icon support -->
         <boolean name="config_update_service_status" value="false"/>
-        <boolean name="config_update_volte_icon" value="false"/>
+        <boolean name="config_update_volte_icon" value="true"/>
 
         <boolean name="auto_retry_failed_wifi_emergency_call" value="true" />
 
